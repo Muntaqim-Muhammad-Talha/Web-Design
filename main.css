@@ -1,0 +1,311 @@
+*{margin:0;padding:0;outline:0}
+body{font-family:arial;font-size:14px;line-height:18px;color:#000;}
+.templete{width:960px;margin:0 auto;}
+.clear{overflow:hidden;}
+.headersection {
+  background: #b7801c none repeat scroll 0 0;
+  color: #fff;
+}
+.logo {
+  float: left;
+  width: 430px;
+}
+.logo img {
+  float: left;
+  margin-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 70px;
+}
+.logo h2 {
+  color: #fff;
+  font-size: 32px;
+  margin-bottom: 11px;
+  margin-top: 24px;
+  text-shadow: 2px 2px 0 #666;
+}
+.logo p{}
+.social {
+  float: right;
+  padding-top: 16px;
+  width: 255px;
+}
+.social img {
+  width: 60px;
+}
+
+.navsection {
+	background: #e6af4b none repeat scroll 0 0;
+	/* min-width: 38px; */
+	/* background: #E6AF4B !important; */
+	height: 38px;
+}
+.navsection ul{margin:0;padding:0;list-style:none;}
+.navsection ul li{display:block;float:left;}
+.navsection ul li a {
+	background: #c48d29 none repeat scroll 0 0;
+	/* border: 1px solid #b7801c; */
+	/* border-radius: 2px; */
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	font-weight: margin: 5px;
+	padding:10px;
+	text-decoration: none;
+}
+
+.navsection ul li a {
+	background: #c48d29 none repeat scroll 0 0;
+	/* border: 1px solid #b7801c; */
+	/* border-radius: 2px; */
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	/* margin: 5px; */
+	padding: 5px 15px;
+	text-decoration: none;
+	background: none;
+}
+
+#active{background:#FEF4E5;color:#333;}
+.slidersection {
+  margin-bottom: 5px;
+}
+.contentsection{background:#FFFFFF;}
+.maincontent {
+  background: #fef4e5 none repeat scroll 0 0;
+  border: 1px solid #b7801c;
+  float: left;
+  margin: 0 15px 15px 0;
+  padding: 8px 20px;
+  width: 628px;
+}
+.about{}
+.about img {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #b7801c;
+  float: left;
+  height: 190px;
+  margin-right: 10px;
+  padding: 5px;
+  width: 300px;
+}
+.about p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+.samepost{}
+.samepost h2,.about h2 {
+  border-bottom: 2px solid #e0d6c7;
+  color: #ac7511;
+  font-size: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.samepost img {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ebb450;
+  float: left;
+  margin-right: 10px;
+  padding: 5px;
+  width: 200px;
+}
+.samepost p {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: justify;
+}
+.readmore {
+  float: right;
+  margin-top: 10px;
+}
+.readmore a {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #b7801c;
+  border-radius: 3px;
+  color: #b7801c;
+  display: block;
+  font-size: 17px;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+input[type="text"], input[type="email"] {
+  border: 1px solid #cfc5b6;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 300px;
+}
+
+.readmore a:hover{color:#E16525;}
+.sidebar {
+  background: #fef4e5 none repeat scroll 0 0;
+  border: 1px solid #b7801c;
+  float: right;
+  margin-bottom: 15px;
+  margin-top: 0;
+  padding: 10px;
+  width: 253px;
+}
+
+input[type="submit"]:hover{background:#FEF4E5;color:#000;}
+textarea {
+	height: 110px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 300px;
+	border: 1px solid #cfc5b6;
+	resize: none;
+	text-shadow: 25px 19px 3px;
+	color: #000;
+	box-shadow: 0px 1px 7px #191919;
+	font-family: arial;
+	/* text-decoration: overline blue; */
+	text-overflow: clip;
+	/* display: \\; */
+	/* position: fixed; */
+}
+textarea:focus{
+	height: 110px;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 300px;
+	border: 1px solid #cfc5b6;
+	resize: none;
+	text-shadow: 25px 19px 3px blue;
+	color: #000;
+	box-shadow: 0px 1px 7px blue;
+	font-family: arial;
+	/* text-decoration: overline blue; */
+	text-overflow: clip;
+	/* display: \\; */
+	/* position: fixed; */
+	color: blue;
+}
+
+.sidebar {
+	background: #fef4e5 none repeat scroll 0 0;
+	border: 1px solid #b7801c;
+	float: right;
+	margin-bottom: 15px;
+	margin-top: 0;
+	padding: 10px;
+	width: 253px;
+}
+
+.samesidebar {
+  margin-bottom: 10px;
+}
+.samesidebar h2 {
+  background: #e6af4b none repeat scroll 0 0;
+  border-bottom: 2px solid #b7801c;
+  color: #333;
+  margin-bottom: 8px;
+  padding: 10px;
+}
+
+.navsection ul li ul{position:absolute; left:-999999999px ;}
+.navsection ul li ul li {
+	background: #E6AF4B;
+	width: 200px;
+	/* text-align: center; */
+	padding-top: 0;
+	text-align: justify;
+	margin-left: -1px;
+	border-right: 0px solid #9E6703;
+	border-left:  0px solid #FBC965;
+}
+.navsection ul li ul li a {
+	border-bottom: 1px solid #C18A26;
+	cursor: pointer;
+	/* text-align: center; */
+	/* align-items: center; */
+	padding: 11px;
+	margin-top: 1px;
+	padding-top: 13px;
+}
+.navsection ul li:hover ul{
+	left:0;
+}
+.navsection ul li ul li a:hover{background:#FEF4E5;color:#333; }
+.navsection ul li a:hover{background:#FEF4E5;color:#333; }
+.navsection ul li ul li:last-child{
+	border-bottom: 0px solid #C18A26;
+}
+
+#active{background:#FEF4E5;color:#333;}
+.navsection ul li:first-child{
+	border-left: 0px solid #E6AF4B;
+}
+.navsection ul li:last-child{
+	border-right: 0px solid #E6AF4B;
+}
+.navsection ul li ul li:last-child{
+	border-bottom: 0px solid #C18A26;
+	border-bottom: 0px solid #C18A26;
+	display:block;
+}
+
+
+
+
+.samesidebar ul{padding:0;margin:0;list-style:none;}
+.samesidebar ul li {
+  border-bottom: 1px dashed #e9c05c;
+  font-size: 16px;
+  padding: 5px 8px 5px 0;
+}
+.samesidebar ul li:last-child{border-bottom: 0px dashed #e9c05c;}
+.samesidebar ul li a {
+  color: #814a00;
+  text-decoration: none;
+}
+.samesidebar ul li a:hover{color:#DF5C25;}
+.samesidebar p {
+  margin-bottom: 10px;
+}
+
+
+
+.footersection {
+	height: 108px;
+	background: #B7801C;
+	text-align: center;
+	margin-left: -17px;
+}
+.footermenu {
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+.footermenu p{}
+.footermenu ul{padding:0;margin:0;list-style:none;text-align:center;}
+.footermenu ul li {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.footermenu ul li a {
+  color: #E6AF4B;
+  font-size: 18px;
+}
+.footermenu {
+	margin-top: 25px;
+	margin-bottom: 12px;
+}
+.footersection p{
+	
+}
+
+
+.footermenu ul li a:hover{
+	color:red;
+}
+
+.about p{
+	line-height:24px;
+}
+
